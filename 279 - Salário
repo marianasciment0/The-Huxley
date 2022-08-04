@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main (){
+    int nfunc, horas;
+    double valohora, vr;
+
+    scanf("%i %i", &nfunc, &horas);
+    scanf("%lf", &valohora);
+
+    vr = valohora * horas;
+
+    printf("NUMBER = %i\n", nfunc);
+    printf("SALARY = R$ %.2lf\n", vr);
+
+    return 0;
+}
