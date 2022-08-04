@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    
+    int Idade;
+    int Segundos;
+    scanf ("%i", &Idade);
+    Segundos = (31536000 * Idade);
+    printf ("%i", Segundos);
+
+    return 0;
+}
