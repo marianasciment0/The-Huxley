@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main(){
+ int n, n1, n2, n3, n4, n5, n6, n7, n8, n9;
+
+ scanf("%d", &n);
+ n1 = n * 1;
+ n2 = n * 2;
+ n3 = n * 3;
+ n4 = n * 4;
+ n5 = n * 5;
+ n6 = n * 6;
+ n7 = n * 7;
+ n8 = n * 8;
+ n9 = n * 9;
+
+printf("%d X 1 = %d\n%d X 2 = %d\n%d X 3 = %d\n%d X 4 = %d\n%d X 5 = %d\n%d X 6 = %d\n%d X 7 = %d\n%d X 8 = %d\n%d X 9 = %d", n, n1,n, n2, n, n3,n, n4,n, n5,n, n6,n ,n7,n ,n8,n ,n9);
+
+return 0;
+}
